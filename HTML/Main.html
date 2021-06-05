@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title> </title>
+    <link rel="stylesheet" href="../Style/Style.css">
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Charts </legend>
+            <div class="rows">
+                <input class="inpt" type="text" name="inpt1" id="inpt1" value="Category 1">
+                <input class="inpt" type="number" name="value1" id="value1" value="10">
+                <input class="inpt" type="color" name="color1" id="color1" value="#F78787">
+            </div>
+            <div class="rows">
+                <input class="inpt" type="text" name="inpt2" id="inpt2" value="Category 2">
+                <input class="inpt" type="number" name="value2" id="value2" value="10">
+                <input class="inpt" type="color" name="color2" id="color2" value="#6A8BFD">
+            </div>
+            <div class="rows">
+                <input class="inpt" type="text" name="inpt3" id="inpt3" value="Category 3">
+                <input class="inpt" type="number" name="value3" id="value3" value="10">
+                <input class="inpt" type="color" name="color3" id="color3" value="#52E0EB">
+            </div>
+            <div class="rows">
+                <input class="inpt" type="text" name="inpt4" id="inpt4" value="Category 4">
+                <input class="inpt" type="number" name="value4" id="value4" value="10">
+                <input class="inpt" type="color" name="color4" id="color4" value="#99E151">
+            </div>
+
+            <div class="chks">
+                <input class="chk" type="checkbox" id="chk1"><label for="chk1">Pie Chart</label>
+                <input class="chk" type="checkbox" id="chk2"><label for="chk2">Doughnut Chart</label><br><br>
+                <input class="chk" type="checkbox" id="chk3"><label for="chk3">Line Chart</label>
+                <input class="chk" type="checkbox" id="chk4"><label for="chk4">Bar Chart</label><br><br>
+            </div>
+            <div class="btn1">
+                <input type="button" value="Draw" id="btn1">
+            </div>
+        </fieldset>
+    </form>
+    <div id="empty"></div>
+    <div class="rowcharts">
+        <div class="charts" id="pie_chart"> <canvas id="myCanv1" height="250px"></canvas></div>
+        <div class="charts" id="doughnut_chart"> <canvas id="myCanv2" height="250px"></canvas></div>
+        <div class="charts" id="line_chart"></div>
+        <div class="charts" id="bar_chart"></div>
+    </div>
+    <div id="data"></div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="../Script/Script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+    form {
+        width: 50%;
+        margin: 20px auto;
+    }
+    
+    .rows {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 60px;
+    }
+    
+    .chks {
+        width: 308px;
+        margin: 0px auto;
+    }
+    
+    label {
+        margin-right: 50px;
+    }
+    
+    .btn1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #btn1 {
+        width: 150px;
+        padding: 5px;
+    }
+    
+    .charts {
+        display: inline-block;
+    }
+    
+    #empty {
+        line-height: 1.6;
+        font-size: 20px;
+        width: 78%;
+    }
+    
+    #pie_chart {
+        margin-left: 20px;
+        margin-top: 150px;
+    }
+    
+    #doughnut_chart {
+        margin-top: 150px;
+    }
+    
+    #line_chart,
+    #bar_chart {
+        margin-top: 50px;
+    }
+    
+    .rowcharts {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #data {
+        display: flex;
+        justify-content: space-between;
+        font-size: 15x;
+        margin: 0px 50px;
+    }
